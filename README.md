@@ -2,6 +2,9 @@
  
 ##Learning Competencies 
 
+* Design database schema from problem data
+* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
+
 ##Summary 
 
  Let's build a course database for a University!
@@ -14,13 +17,13 @@ There will be lots of missing data at first, but we'll fill it in.
 4. Each class has a teacher
 5. A teacher can teach only one class
 
-## Objectives
+##Releases
 
-### Basic schema
+###Release 0 : Basic schema
 
 Design a basic "course database" using the requirements described in the challenge description.
 
-### Updated requirements
+###Release 1 : Updated requirements
 
 New requirements!  These replace the ones above.
 
@@ -35,7 +38,7 @@ New requirements!  These replace the ones above.
 
 Design an advanced "course database" using the requirements above.
 
-### Enforcing time constraints
+###Release 2 : Enforcing time constraints
 
 How would you enforce time constraints?  For example, students can't attend and teachers can't teach two sections whose times overlap.
 
@@ -45,18 +48,17 @@ Are you able to infer if student and teacher data violate this constraint?  Even
 
 What are the potential costs if you are relying on supporting ruby code to help validate your data?  Write an explanation in your gist.
 
-### Cross-listing classes
+#### Cross-listing classes
 
 Sometimes schools allow courses to be cross-listed in multiple departments.  For example, a Combinatorics class might be in both the Mathematics and Computer Science departments.  
 
 How would you alter the schema above to accommodate that?
 
-Use [SQL Designer](/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the gist. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your gist (before your XML code).
- 
+Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the source file `forum.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your source file (before your XML code). 
 
-##Releases
-###Release 0 
+<!-- ##Optimize Your Learning  -->
 
-##Optimize Your Learning 
+##Resources
 
+* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
 ##Resources
