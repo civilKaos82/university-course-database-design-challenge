@@ -61,4 +61,3 @@ Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your sch
 ##Resources
 
 * [SQL Designer](https://socrates.devbootcamp.com/sql.html)
-##Resources
