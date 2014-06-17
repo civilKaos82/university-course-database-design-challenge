@@ -54,7 +54,7 @@ Sometimes schools allow courses to be cross-listed in multiple departments.  For
 
 How would you alter the schema above to accommodate that?
 
-Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the source file `forum.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your source file (before your XML code). 
+Use [SQL Designer](https://socrates.devbootcamp.com//sql.html) to create your schema.  When you are done, take a screenshot of your final schema design, and commit it.
 
 <!-- ##Optimize Your Learning  -->
 
