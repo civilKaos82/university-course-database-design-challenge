@@ -54,10 +54,10 @@ Sometimes schools allow courses to be cross-listed in multiple departments.  For
 
 How would you alter the schema above to accommodate that?
 
-Use [SQL Designer](https://socrates.devbootcamp.com//sql.html) to create your schema.  When you are done, take a screenshot of your final schema design, and commit it.
+Use [Schema Designer](https://schemadesigner.devbootcamp.com/) to create your schema.  When you are done, take a screenshot of your final schema design, and commit it.
 
 <!-- ##Optimize Your Learning  -->
 
 ##Resources
 
-* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
+* [Schema Designer](https://schemadesigner.devbootcamp.com/)
