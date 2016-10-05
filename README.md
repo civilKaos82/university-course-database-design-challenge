@@ -15,20 +15,19 @@ Begin by designing a database schema based on the requirements listed below.  Us
 - A teacher can teach multiple courses.
 
 
-###Release 1 : Updated requirements
+### Release 1: Updated Requirements
+The requirements for our schema have changed.  Our database needs to support some additional functionality.  Modify the schema design to match the requirements listed below.
 
-New requirements!  These replace the ones above.
+- A department offers many courses.
+- A course is offered by one department.
+- A course has many sections (e.g., English 101, Section 1; English 101, Section 2, etc.).
+- A section is offered either Monday/Wednesday/Friday or Tuesday/Thursday.
+- A section has a start time and an end time.
+- A student attends a course by enrolling in a specific section of the course.
+- A student receives a final grade for each enrolled-in section.
+- A section is taught by one teacher.
+- A teacher can teach multiple sections.
 
-1. Classes have many sections
-2. Sections have a start time and an end time
-3. Sections can either be Monday/Wednesday/Friday or Tuesday/Thursday
-4. Students can attend many classes and must be assigned to a specific section,
-   but they can only attend one section per class
-5. Students are given a grade per section
-6. Teachers can teach multiple sections, but a section is taught by only one teacher
-7. Classes belong to a single department, but a department has multiple classes
-
-Design an advanced "course database" using the requirements above.
 
 ###Release 2 : Enforcing time constraints
 
