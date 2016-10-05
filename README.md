@@ -37,18 +37,15 @@ Update the schema to support cross-listing courses.
 When complete, take a screenshot of the final schema design and commit it.
 
 
-###Release 3 : Enforcing time constraints
+### Release 3 : Enforcing Constraints
+As students enroll in course sections, there are a couple problems that might arise.  What if a student enrolls in two sections of the same course?  Or, what if a student enrolls in two sections whose times overlap?  Or, for that matter, what if a teacher is assigned to teach two sections whose times overlap?
 
-How would you enforce time constraints?  For example, students can't attend and teachers can't teach two sections whose times overlap.
+How could we infer that student or teacher data violates one of these contraints?  Even if the database itself doesn't have these constraints built in, if we can infer a violation, we could write Ruby code to ensure the violation doesn't reach the database.  In other words, our Ruby application would not write to the database, if a violation would occur.
 
-With your pair, talk about how you'd do this.  Hint: you might want to use a whiteboard.
+How could we enforce these constraints?  Discuss as a pair how to do this.  What are the potential costs of relying on supporting Ruby code to help validate our data?  Write an explanation in the file `constraints.md`.
 
-Are you able to infer if student and teacher data violate this constraint?  Even if the database itself doesn't have this constraint built in, if you can infer a violation, you could conceivably write ruby code to ensure this violation doesn't occur.  
+*Note:* We won't reflect these constraints in our schema design.
 
-What are the potential costs if you are relying on supporting ruby code to help validate your data?  Write an explanation in your gist.
-
-
-<!-- ##Optimize Your Learning  -->
 
 ## Conclusion
 
