@@ -1,7 +1,7 @@
 # University Course Schema Design 
  
 ## Summary 
-We're going to design a database schema that would support a university course enrollment application.  Imagine an application where students are able to browse the university's course offerings.  Each of the university's courses is listed.  Students browse the list and enroll in courses.  The specific requirements are presented in the releases.
+We're going to design a database schema that would support a university course enrollment application.  Imagine an application where students are able to browse the university's course offerings.  Each of the university's courses is listed:  English 101, English 201, Math 101, etc.  Students browse the list and enroll in courses.  The specific requirements are presented in the releases.
 
 
 ## Releases
