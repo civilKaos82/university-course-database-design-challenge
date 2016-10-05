@@ -29,7 +29,15 @@ The requirements for our schema have changed.  Our database needs to support som
 - A teacher can teach multiple sections.
 
 
-###Release 2 : Enforcing time constraints
+### Release 2: Cross-listing Classes
+Sometimes courses are cross-listed in multiple departments.  For example, the same Combinatorics course might be jointly offered by both the Mathematics and Computer Science departments.
+
+Update the schema to support cross-listing courses.
+
+When complete, take a screenshot of the final schema design and commit it.
+
+
+###Release 3 : Enforcing time constraints
 
 How would you enforce time constraints?  For example, students can't attend and teachers can't teach two sections whose times overlap.
 
@@ -39,13 +47,6 @@ Are you able to infer if student and teacher data violate this constraint?  Even
 
 What are the potential costs if you are relying on supporting ruby code to help validate your data?  Write an explanation in your gist.
 
-#### Cross-listing classes
-
-Sometimes schools allow courses to be cross-listed in multiple departments.  For example, a Combinatorics class might be in both the Mathematics and Computer Science departments.  
-
-How would you alter the schema above to accommodate that?
-
-When you are done, take a screenshot of your final schema design, and commit it.
 
 <!-- ##Optimize Your Learning  -->
 
