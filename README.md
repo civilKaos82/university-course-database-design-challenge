@@ -49,5 +49,9 @@ How could we enforce these constraints?  Discuss as a pair how to do this.  What
 
 
 ## Conclusion
+When designing a database schema, we let the needs of the application drive the design of the schema.  We need to be able to look at the needs of the application and understand how to support those needs in the database.
+
+One of the critical concerns is associating data in different tables with each other.  For example, associating students with their courses through the sections in which they enroll.  We need to be able to look at an application, infer the types of relationship between objects, and know how to model them in our schemas.
+
 
 [Schema Designer]: https://schemadesigner.devbootcamp.com/
