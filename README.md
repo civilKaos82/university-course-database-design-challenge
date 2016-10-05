@@ -53,6 +53,6 @@ Use [Schema Designer](https://schemadesigner.devbootcamp.com/) to create your sc
 
 <!-- ##Optimize Your Learning  -->
 
-##Resources
+## Conclusion
 
-* [Schema Designer](https://schemadesigner.devbootcamp.com/)
+[Schema Designer]: https://schemadesigner.devbootcamp.com/
