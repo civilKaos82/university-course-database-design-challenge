@@ -1,22 +1,19 @@
 # University Course Schema Design 
  
-##Summary 
+## Summary 
+We're going to design a database schema that would support a university course enrollment application.  Imagine an application where students are able to browse the university's course offerings.  Each of the university's courses is listed.  Students browse the list and enroll in courses.  The specific requirements are presented in the releases.
 
- Let's build a course database for a University!
 
-There will be lots of missing data at first, but we'll fill it in.
+## Releases
+### Release 0: Basic Schema
+Begin by designing a database schema based on the requirements listed below.  Use [Schema Designer][] to visually represent your schema.
 
-1. Students can attend many classes
-2. Classes can have many students
-3. For each class a student attends, they have a final grade (think carefully about what table this data lives in)
-4. Each class has a teacher
-5. A teacher can teach only one class
+- A student can enroll in many courses.
+- A course can have many enrolled students.
+- A student receives a final grade for each enrolled-in course (think carefully about what table this data lives in).
+- A course is taught by one teacher.
+- A teacher can teach multiple courses.
 
-##Releases
-
-###Release 0 : Basic schema
-
-Design a basic "course database" using the requirements described in the challenge description.
 
 ###Release 1 : Updated requirements
 
@@ -49,7 +46,7 @@ Sometimes schools allow courses to be cross-listed in multiple departments.  For
 
 How would you alter the schema above to accommodate that?
 
-Use [Schema Designer](https://schemadesigner.devbootcamp.com/) to create your schema.  When you are done, take a screenshot of your final schema design, and commit it.
+When you are done, take a screenshot of your final schema design, and commit it.
 
 <!-- ##Optimize Your Learning  -->
 
