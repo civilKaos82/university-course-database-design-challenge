@@ -1,4 +1,4 @@
-# University Course Database Design 
+# University Course Schema Design 
  
 ##Learning Competencies 
 
