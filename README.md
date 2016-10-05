@@ -30,9 +30,10 @@ The requirements for our schema have changed.  Our database needs to support som
 
 
 ### Release 2: Cross-listing Classes
-Sometimes courses are cross-listed in multiple departments.  For example, the same Combinatorics course might be jointly offered by both the Mathematics and Computer Science departments.
+Sometimes courses are cross-listed in multiple departments.  For example, the same Combinatorics course might be jointly offered by both the Mathematics and Computer Science departments.  Update the schema to support cross-listing courses:
 
-Update the schema to support cross-listing courses.
+- A department offers many courses.
+- A course can be offered by many departments.
 
 When complete, take a screenshot of the final schema design and commit it.
 
