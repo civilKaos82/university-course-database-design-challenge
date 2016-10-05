@@ -1,10 +1,5 @@
 # University Course Schema Design 
  
-##Learning Competencies 
-
-* Design database schema from problem data
-* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
-
 ##Summary 
 
  Let's build a course database for a University!
